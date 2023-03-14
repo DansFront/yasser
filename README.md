@@ -2,7 +2,6 @@
 
 <p align="left">Rest API para criar usuário e autenticação de login com JWT</p>
 <br>
-<br>
 <h3 align="left">COMO RODAR O PROJETO BAIXADO</h3>
 
 <p align="left">Instalar todas as dependencias indicada pelo package.json <br>
@@ -22,7 +21,6 @@ Rodar o projeto usando o nodemon <br>
 </div>
 </p>
 
-<br>
 <br>
 
 <h3 align="left">ROTAS</h3>
