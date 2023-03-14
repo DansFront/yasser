@@ -8,11 +8,14 @@
 <div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto">
   <pre>$ <span class="pl-s1">npm install</span></pre>
 </div>
-<br><br>Rodar o projeto<br>
+
+Rodar o projeto<br><br>
+
 <div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto">
   <pre>$ <span class="pl-s1">npm start</span></pre>
 </div>
-<br><br>Rodar o projeto usando o nodemon <br> 
+
+Rodar o projeto usando o nodemon <br><br>
 <div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto">
   <pre>$ <span class="pl-s1">nodemon index.js</span></pre>
 </div>
