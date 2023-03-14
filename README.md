@@ -1,33 +1,24 @@
-# yasser
-API Node.js sistema do Yasser
+<h2 align="left">Sobre o projeto</h2>
 
---------------------------------------
-SEQUENCIA PARA CRIAR O PROJETO
---------------------------------------
-Criar o arquivo package
-npm init
+<p align="left">Rest API para criar usuário e autenticação de login com JWT</p>
 
-//Gerencia as requisições, rotas e URLs, entre outra funcionalidades
-npm install express
+<br clear="both">
 
-//Instalar o módulo para reiniciar o servidor sempre que houver alteração no código fonte
-npm install -D nodemon
+<h5 align="left">COMO RODAR O PROJETO BAIXADO</h5>
 
-//Rodar o projeto usando o nodemon 
-nodemon app.js
+<p align="left">Instalar todas as dependencias indicada pelo package.json<br>🪶 npm install<br><br>Rodar o projeto<br>🪶 npm start<br><br>Rodar o projeto usando o nodemon <br>🪶 nodemon index.js</p>
 
-//Instalar o MongoDB
-npm install --save mongodb
+<br clear="both">
 
-//Instalar o Mongoose - Mongoose traduz os dados do banco de dados para objetos JavaScript para que possam ser utilizados por sua aplicação.
-npm install --save mongoose
+<h5 align="left">ROTAS</h5>
 
---------------------------------------
-COMO RODAR O PROJETO BAIXADO
---------------------------------------
+<p align="left">Login com retorno de token<br><br>http://localhost:3000/admin/users/login<br><br>{<br>    "mail": "daniel@gmail.com",<br>    "password": "123"<br>}</p>
 
-//Instalar todas as dependencias indicada pelo package.json
-npm install
+<h2 align="left">Techs</h2>
 
-//Rodar o projeto usando o nodemon 
-nodemon app.js
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="52" alt="nodejs logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" width="52" alt="express logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" width="52" alt="mysql logo"  />
+  <img src="https://jwt.io/img/logo.svg" height="40" width="52" alt="mysql logo"  />
+</div>
