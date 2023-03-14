@@ -1,15 +1,16 @@
 <h2 align="left">Sobre o projeto</h2>
 
 <p align="left">Rest API para criar usuário e autenticação de login com JWT</p>
+
 <h5 align="left">COMO RODAR O PROJETO BAIXADO</h5>
 
 <p align="left">Instalar todas as dependencias indicada pelo package.json<br>🪶 npm install<br><br>Rodar o projeto<br>🪶 npm start<br><br>Rodar o projeto usando o nodemon <br>🪶 nodemon index.js</p>
 
-<br clear="both">
-
 <h5 align="left">ROTAS</h5>
 
-<p align="left">Login com retorno de token<br><br>http://localhost:3000/admin/users/login<br>{<br>    "mail": "",<br>    "password": ""<br>}</p>
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">POST</span>  Login com retorno de token<br><br>http://localhost:3000/admin/users/login<br><br>{<br>    "mail": "daniel@gmail.com",<br>    "password": "123"<br>}</p>
+
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">POST</span> Cadastrar usuário<br><br>http://localhost:3000/admin/users/<br><br>{<br>    "mail": "daniel@gmail.com",<br>    "password": "123"<br>}</p>
 
 <h2 align="left">Techs</h2>
 
