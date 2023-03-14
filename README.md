@@ -8,9 +8,15 @@
 
 <h5 align="left">ROTAS</h5>
 
-<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">POST</span>  Login com retorno de token<br><br>http://localhost:3000/admin/users/login<br><br>{<br>    "mail": "daniel@gmail.com",<br>    "password": "123"<br>}</p>
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">POST |</span>  Login com retorno de token<br><br>http://localhost:3000/admin/users/login<br><br>{ <br> "MAIL": "", <br> "PASSWORD": ""<br>}</p>
 
-<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">POST</span> Cadastrar usuário<br><br>http://localhost:3000/admin/users/<br><br>{<br>    "mail": "daniel@gmail.com",<br>    "password": "123"<br>}</p>
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">GET |</span> Buscar usuários<br><br>http://localhost:3000/admin/users/<br><br>{<br>"id"<br>}</p>
+
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">POST |</span> Cadastrar usuário<br><br>http://localhost:3000/admin/users/<br><br>{<br> "NAME", <br> "MAIL": "", <br>  "PASSWORD": ""<br>}</p>
+
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">PUT |</span> Alterar usuário<br><br>http://localhost:3000/admin/users/<br><br>{<br> "ID", <br> "NAME", <br> "MAIL": "", <br>  "PASSWORD": ""<br>}</p>
+
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">DELETE |</span> Deletar usuário usuário<br><br>http://localhost:3000/admin/users/<br><br>{<br>"id"<br>}</p>
 
 <h2 align="left">Techs</h2>
 
