@@ -1,0 +1,10 @@
+{
+   "env" : {
+         "MYSQL_HOST"     : "127.0.0.1",
+         "MYSQL_PORT"     : 3306,
+         "MYSQL_DATABASE" : "YASSER",
+         "MYSQL_USER"     : "root",
+         "MYSQL_PASSWORD" : "master",
+         "JWT_KEY" : "$P$B/czNWxtyn4wuW0hzcsv5RIaLcLzb71"
+   }
+}
