@@ -23,36 +23,36 @@ Rodar o projeto usando o nodemon <br>
 
 <h3 align="left">ROTAS</h3>
 
-<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">POST |</span>  Login com retorno de token<br><br><strong>http://localhost:3000/admin/users/login</strong><br>
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030"><i>POST </i> |</span>  Login com retorno de token<br><br><strong style="font-size: 13px;">http://localhost:3000/admin/users/login</strong><br>
   <div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto">
-    <pre>$ <span class="pl-s1">{ "MAIL" : "", "PASSWORD" : "" }</span></pre>
+    <pre><span class="pl-s1">{ "MAIL" : "", "PASSWORD" : "" }</span></pre>
   </div>
 </p>
-
-<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">GET |</span> Buscar usuários<br><br><strong>http://localhost:3000/admin/users/</strong><br>
+<br>
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030"><i>GET</i> |</span> Buscar usuários<br><br><strong style="font-size: 13px;">http://localhost:3000/admin/users/</strong><br>
   <div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto">
-    <pre>$ <span class="pl-s1">{ "id" : "" }</span></pre>
+    <pre><span class="pl-s1">{ "id" : "" }</span></pre>
   </div>
 </p>
-
-<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">POST |</span> Cadastrar usuário<br><br><strong>http://localhost:3000/admin/users/</strong><br>
+<br>
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030"><i>POST</i> |</span> Cadastrar usuário<br><br><strong style="font-size: 13px;">http://localhost:3000/admin/users/</strong><br>
   <div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto">
-    <pre>$ <span class="pl-s1">{ "NAME" : "", "MAIL" : "", "PASSWORD" : "" }</span></pre>
+    <pre><span class="pl-s1">{ "NAME" : "", "MAIL" : "", "PASSWORD" : "" }</span></pre>
   </div>
 </p>
-
-<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">PUT |</span> Alterar usuário<br><br><strong>http://localhost:3000/admin/users/</strong><br>
+<br>
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030"><i>PUT</i> |</span> Alterar usuário<br><br><strong style="font-size: 13px;">http://localhost:3000/admin/users/</strong><br>
   <div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto">
-    <pre>$ <span class="pl-s1">{ "ID" : "", "NAME" : "", "MAIL" : "", "PASSWORD" : "" }</span></pre>
+    <pre><span class="pl-s1">{ "ID" : "", "NAME" : "", "MAIL" : "", "PASSWORD" : "" }</span></pre>
   </div>
 </p>
-
-<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030">DELETE |</span> Deletar usuário usuário<br><br><strong>http://localhost:3000/admin/users/<strong><br>
+<br>
+<p align="left"><span style="display: block; padding: 5px 8px; background-color: #F13030"><i>DELETE</i> |</span> Deletar usuário usuário<br><br><strong style="font-size: 13px;">http://localhost:3000/admin/users/<strong><br>
   <div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto">
-    <pre>$ <span class="pl-s1">{ "ID" : "" }</span></pre>
+    <pre><span class="pl-s1">{ "ID" : "" }</span></pre>
   </div>
 </p>
-
+<br>
 <h2 align="left">Techs</h2>
 
 <div align="left">
